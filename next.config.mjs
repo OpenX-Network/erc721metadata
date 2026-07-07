@@ -16,6 +16,10 @@ const nextConfig = {
     {
       source: "/metadata/OwnAIv1/:tokenId(\\d+)",
       destination: "/metadata/OwnAIv1/default.json",
+    },
+    {
+      source: "/metadata/genesis/:tokenId(\\d+)",
+      destination: "/metadata/genesis/miniappfactory.json",
     }
   ],
   reactStrictMode: true,
