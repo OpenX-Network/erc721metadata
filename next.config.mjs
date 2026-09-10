@@ -18,6 +18,10 @@ const nextConfig = {
       destination: "/metadata/OwnAIv1/default.json",
     },
     {
+      source: "/metadata/genesis/132",
+      destination: "/metadata/genesis/memegen.json",
+    },
+    {
       source: "/metadata/genesis/:tokenId(\\d+)",
       destination: "/metadata/genesis/miniappfactory.json",
     }
