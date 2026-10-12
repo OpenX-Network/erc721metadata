@@ -22,6 +22,10 @@ const nextConfig = {
       destination: "/metadata/genesis/memegen.json",
     },
     {
+      source: "/metadata/genesis/133",
+      destination: "/metadata/genesis/comicsgen.json",
+    },
+    {
       source: "/metadata/genesis/:tokenId(\\d+)",
       destination: "/metadata/genesis/miniappfactory.json",
     }
